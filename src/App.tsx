@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/session/:sessionId" element={<QRPage />} />
+        <Route path="/session" element={<QRPage />} />
         <Route path="/group/:groupId" element={<GroupPage />} />
       </Routes>
     </Router>
